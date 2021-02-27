@@ -8,6 +8,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { PagesComponent } from './pages.component';
 import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -16,7 +17,8 @@ import { ComponentsModule } from '../components/components.module';
     Grafica1Component,
     ProgressComponent,
     DashboardComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   exports: [
     Grafica1Component,
